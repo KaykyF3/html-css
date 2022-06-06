@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <hr>
+    <p>Você pode acessar o meu <a href="https://www.behance.net/hrusart">portfólio de design</a> no Behance.</p> <!-- PARA COLOCAR UM LINK EXTERNO EM UM DETERMINADO TERMO, BASTA COLOCÁ-LO DENTRO DA TAG <A>--> <!-- NO PRIMEIRO CASO, O LINK IRÁ SUBSTITUIR A EXIBIÇÃO DO SITE PELO PORTFÓLIO-->
+    <p>Você pode acessar o <a href="https://www.youtube.com/channel/UCQ3HAIAwVpACb54GkBWcdmg" target="_blank" rel="external">meu canal</a> no Youtube.</p>
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também pode acessar a minha <a href="pag002.html" rel="next">segunda página</a>.</p> <!-- PARA DIRECIONAR A LINKS INTERNOS BASTA FAZER O MESMO PROCEDIMENTO, PORÉM AO INVÉS DE USARMOS A URL, CLICAREMOS NA PASTA DA SEGUNDA PÁGINA (CTRl+SPACE) ENTRE AS TAGS.-->
+    <p>Você também pode acessar nossa <a href="noticias/pag003.html">página de notícias.</a></p>
+    <h1>Links para download</h1> 
+    <!--Para colocar um termo em um link de download, é necessário colocar o termo dentro das TAGS A e escolher o arquivo (CTRL+SPACE) que deseja baixar onde o HTML está salvo, depois complementar o código com download= NOME DO ARQUIVO AQUI e type= MEDIA TYPE DO ARQUIVO AQUI. O site www.iana.org/assignments/media-types/media-types.xhtml disponibiliza o MediaType de todos os tipos de arquivos. -->
+    <ul type="square">
+    <li><a href="livro/Como Fazer Amigos e Influenciar Pessoas - Dale Carnegie.pdf" download="Como Fazer Amigos e Influenciar Pessoas - Dale Carnegie.pdf" type="application/pdf" >Baixar o Livro PDF</a></li>
+    <li><a href="livro/Como Fazer Amigos e Influenciar Pessoas - Dale Carnegie.zip" download="Como Fazer Amigos e Influenciar Pessoas - Dale Carnegie.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture> <!-- A TAG SOURCE MEDIA DEFINE QUE SE O NAVEGADOR DO DISPOSITIVO TIVER UMA LARGURA MENOR DO QUE A IMAGEM GRANDE (NO CASO ATUAL É 1000), A IMAGEM MÉDIA SERÁ CARREGADA AO INVÉS DA IMAGEM GRANDE. --> <!-- DENTRO DA TAG SRCSET NÃO TEM O ATALHO CTRL + ESPAÇO, É NECESSÁRIO ESCREVER-->
+
+    <!-- É NECESSÁRIO ESCREVER MANUALMENTE O CÓDIGO DENTRO DO SRCSET E DENTRO DO TYPE E OBEDECER A ORDEM DE RESOLUÇÃO (NO CASO 700PX FICA EM CIMA, E O 1000PX EMBAIXO)-->
+
+
+
+                        <!--ORIGEM DO ARQUIVO QUE SUBSTITUIRÁ A IMAGEM MÉDIA--><!--TIPO DE ARQUIVO-->
+        <source media="(max-width: 700px)" srcset="imagens/foto1.png" type="image/png"> <!-- ESSE CÓDIGO DIZ QUE SE O NAVEGADOR DO DISPOSITIVO TIVER UMA LARGURA MENOR DO QUE 700PX, A IMAGEM PEQUENA SUBSTITUIRÁ AS OUTRAS DUAS-->
+        <source media="(max-width: 1000px)" srcset="imagens/foto2.png" type="image/png"> <!-- CÓDIGO PARA DISPOSITIVOS MENOR QUE A IMAGEM GRANDE DE 1000PX--> <!-- A TAG SOURCE MEDIA DEFINE QUE SE O NAVEGADOR DO DISPOSITIVO TIVER UMA LARGURA MENOR DO QUE A IMAGEM GRANDE (NO CASO ATUAL É 1000), A IMAGEM MÉDIA SERÁ CARREGADA AO INVÉS DA IMAGEM GRANDE. -->
+        <img src="imagens/foto3.png" alt="imagem flexível">
+
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <!-- EXISTEM DOIS TIPOS PARA COLOCAR ÁUDIOS-->
+    <!-- TIPO 1-->
+    <p>Vamos aprender a reproduzir áudios em HTML5</p> <!--PARA COLOCAR ÁUDIOS, UTILIZE A TAG AUDIO E COLOQUE A ORIGEM DO ÁUDIO DENTRO DE SRC E COMPLEMENTE O CÓDIGO COM CONTROLS PARA O ÁUDIO APARECER NO SITE.-->
+    <audio src="midia/Divertissement.mp3" controls></audio>
+    <!-- TIPO 2-->
+    <audio>                                    <!--MEDIATYPE DO MP3-->
+        <source src="midia/Divertissement.mp3" type="audio/mpeg">
+
+    </audio>
+</body>
+</html>

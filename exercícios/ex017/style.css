@@ -1,0 +1,29 @@
+@charset "utf-8";
+body {
+    height: 100%; /* atua na altura do projeto dentro da interface */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom, #95d6c5,#4bac92);
+    background-attachment: fixed; /* atua na fixação do degradê */
+
+}
+
+main {
+    background-color: WHITE;
+    border-radius: 20px; /* atua nas bordas do projeto */
+    box-shadow: 5px 5px 10px #3d947d; /* atua na sombra da caixa, o primeiro atua em quanto a sombra irá para o lado, o segundo quanto essa sombra irá para baixo, o terceiro o quanto será o espalhamento da sombra, e a última é a cor da sombra */
+    width: 900px;
+    padding: 10px; /* atua na distância entre os elementos e as bordas */
+    margin: auto; /* atua na centralidade do projeto */
+}
+h1 {   
+    color: #39694b;
+    text-align: center;
+    text-shadow: 1px 1px 2px #173623;
+}
+h2 {
+    color: #408a75;
+}
+p {
+    text-align: justify;
+}
+ 

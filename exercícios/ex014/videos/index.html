@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente, método 1</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- coloca-se vídeo com a TAG vídeo e origem do arquivo em soruce, além disso, é necessário alterar a largura do vídeo com WIDTH e adicionar CONTROLS para adicionar o play. Para adicionar thumbnails, basta usar o elemento poster, e adicionar a origem da imagem.-->
+    <!-- Método 1--> 
+    <video src="Meu-Video-1.m4v" width="500" poster="imagens/thumb.png" controls></video> 
+    <h1>Inserindo vídeos externos sem baixá-los</h1>
+    <!-- Basta copiar o endereço de vídeo incorporado do vídeo do Youtube que deseja colocar.-->
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/9ZfN87gSjvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+</html>

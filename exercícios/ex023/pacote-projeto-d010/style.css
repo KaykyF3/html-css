@@ -1,0 +1,121 @@
+@font-face {
+    font-family: MinhaFonte;
+    src: url(idroid.otf);
+}
+
+body {
+    background-color: rgb(253, 237, 193);
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(#209c43,#073f18);
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+menu ul li {
+    text-decoration: none;
+    color: rgb(154, 243, 155);
+    font-weight: bolder;
+    display: inline;
+    margin: 10px;
+}
+
+menu ul {
+    list-style: none;
+    text-align: left;
+    padding: 1px;
+    }
+
+main {
+    background-color: white;
+    max-width: 900px;
+    max-height: 2850px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    }
+
+main h1 {
+    font-family: MinhaFonte;
+    padding: 5px;
+    color: #04521a;
+    text-align: center;
+}
+
+main h1.title {
+    background-color: #98ecb0;
+}
+main p {
+    font-size: larger;
+    text-indent: 30px;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    max-width:100%;
+}
+
+main p a {
+    text-decoration: none;
+    text-transform: none;
+    color: #1d963f;
+}
+
+main img#stick-image {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+main footer {
+    width: 895px;
+    height: 550px;
+    background-color: #c3fad3;
+    border-radius: 50px;
+}
+main footer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a6830;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+main footer p {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px
+}
+
+footer div ul li {
+    font-size: 20px;
+    
+}
+
+footer div ul {
+    margin: 30px;
+}
+
+footer div {
+    display: inline-flex
+}
+
+body section {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #1a6830;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
